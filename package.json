@@ -1,0 +1,21 @@
+{
+  "name": "codegenerators-demo",
+  "version": "1.0.0",
+  "description": "A codegenerators demo built with Hygen.",
+  "scripts": {
+    "generators": "hygen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/codegenerators-demo.git"
+  },
+  "author": "Carlos Cuesta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/codegenerators-demo/issues"
+  },
+  "homepage": "https://github.com/carloscuesta/codegenerators-demo#readme",
+  "devDependencies": {
+    "hygen": "^6.2.0"
+  }
+}
