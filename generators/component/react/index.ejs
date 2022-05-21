@@ -1,0 +1,12 @@
+---
+to: src/components/<%= h.changeCase.pascalCase(name) %>/index.js
+---
+
+const <%= h.changeCase.pascalCase(name) %> = () => (
+  <section>
+    <h1>Hey! 👋</h1>
+    <h2><code><%= h.changeCase.pascalCase(name) %></code></h2>
+  </section>
+)
+
+export default <%= h.changeCase.pascalCase(name) %>
