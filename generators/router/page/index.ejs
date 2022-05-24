@@ -1,0 +1,9 @@
+---
+inject: true
+to: src/routes.js
+before: "</Switch>"
+---
+
+      <Route path="/<%= h.changeCase.paramCase(route) %>">
+        <h1><%= h.changeCase.pascalCase(route) %></h1>
+      </Route>
